@@ -1,6 +1,6 @@
 // Set up MySQL connection.
 var mysql = require("mysql");
-var login = require("./login");
+var login = require("./../login.js");
 
 var connection = mysql.createConnection({
   host: "localhost",
