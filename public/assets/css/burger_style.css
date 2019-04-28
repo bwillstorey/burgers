@@ -1,7 +1,13 @@
+body {
+  background-color: lightskyblue;
+  text-align: center;
+}
+
 li {
     padding: 5px;
     margin: 5px;
     background: #faebd7;
+    list-style: none;
   }
   
   .label {
