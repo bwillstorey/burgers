@@ -1,17 +1,29 @@
 body {
   background-color: lightskyblue;
   text-align: center;
+  max-width: 50%;
+  margin-left: 25%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.col-md-4 {
+  background-color: lightyellow;
+  margin: 10px;
+  padding: 5px;
 }
 
 li {
-    padding: 5px;
+    padding: 10px;
     margin: 5px;
-    background: #faebd7;
+    border: black dashed 1px;
     list-style: none;
+    max-width: 60%;
+    margin-left: 15%;
   }
   
   .label {
     font-weight: bold;
+    margin: 5px;
   }
   
   .create-update-form {
@@ -22,4 +34,21 @@ li {
   
   .form-group {
     margin-bottom: 5px;
+  }
+
+  .btn-primary {
+    float: right;
+  }
+
+  button {
+    background-color: goldenrod;
+    color: white;
+    border: solid black 1px;
+    font-weight: bold;
+    box-shadow: -1px -1px;
+    padding: 2px;
+  }
+
+  h2 {
+    text-decoration: underline;
   }
