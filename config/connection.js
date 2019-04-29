@@ -1,6 +1,6 @@
 // Set up MySQL connection.
 var mysql = require("mysql");
-var login = require("./../login.js");
+var login = require("../login");
 
 var connection;
 
