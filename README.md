@@ -5,10 +5,10 @@
 
 ## Technology
 - Javascript, Node, Express, Handlebars, mySQL
-- Live Demo: 
+- Live Demo: https://shielded-scrubland-49798.herokuapp.com/
 
 ## About
-A node and express application utilizing handlebars. 
+A node and express application developed utilizing handlebars templating. Users have to follow 3 different routes: get, post, or put which allows users to read burgers currently in the mySQL database (get), add a new burger to the database (post), or change a burger's state from devoured/not devoured (put).  Application is deployed on Heroku using persistent storage with a mySQL database.
 
 
 ## Contributing Guidelines
