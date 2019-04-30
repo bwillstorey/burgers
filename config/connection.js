@@ -1,6 +1,7 @@
 // Set up MySQL connection.
 var mysql = require("mysql");
-var login = require("../login");
+
+require("dotenv").config();
 
 var connection;
 
@@ -12,7 +13,7 @@ else {
     host: "localhost",
     port: 3306,
     user: "root",
-    password: login.password,
+    password: process.env.DB_PASS,
     database: "burgers_db"
   });
 }
